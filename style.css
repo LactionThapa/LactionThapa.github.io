@@ -19,12 +19,6 @@ body>footer{
     display: flex;
 }
 
-body>footer>p{
-    padding:16px;
-    color:white;
-    text-align:center;
-}
-
 #logo{
     margin:0;
     padding: 8px;
@@ -41,7 +35,7 @@ body>footer>p{
 
 body>main article{
     margin:auto;
-    width: 70%;
+    width: 80%;
 }
 
 ul{
@@ -81,6 +75,7 @@ img{
 
 #footer-ul>div>li{
     margin-left: 12px;
+    justify-content: space-around;
     
 }
 
@@ -96,4 +91,19 @@ img{
 
 #main-content > div{
     width: 70%;
+}
+#main-content>aside{
+    background-color: darkorange;
+}
+
+.list>li{
+    list-style: none;
+    text-decoration: none;
+}
+.list>li>a{
+    text-decoration: none;
+}
+
+#forms{
+    background-color: lightsalmon;
 }
